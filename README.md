@@ -12,7 +12,7 @@ Currently this repository use baseimage v0.10.1 and OTP 21.0
 Note that all the philosophy from phusion/baseimage-docker is kept untouched. You shall read their README.md file.
 This image tags match the version of OTP you want to use. If your version is missing, just open a PR.
 
-Available pre-built images OTP versions:
+Available pre-built images OTP versions (or check on [docker hub](https://hub.docker.com/r/ook99/baseimage-erlang/tags/)):
   * 21.0
   * 20.3.6
   * 19.3.6
