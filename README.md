@@ -3,7 +3,8 @@ This Dockerfile provides a full installation of erlang suite on Ubuntu 16.04 LTS
   * Phusion baseimage-docker (docker for those who RTFM)
   * Erlang Solutions (fine maintained erlang packages)
 
-This permits a powerful image (ubuntu based) with latest packages and up to date Erlang versions
+This permits a powerful image (ubuntu based) with latest packages and up to date Erlang versions.
+Currently this repository use baseimage v0.10.1 and OTP 21.0
 
 ## Usage
 
