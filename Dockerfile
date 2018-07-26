@@ -8,6 +8,8 @@ FROM phusion/baseimage:0.10.1
 CMD ["/sbin/my_init"]
 
 # ------------------------- baseimage-docker customization
+MAINTAINER Thomas Lecavelier <thomas@lecavelier.name>
+
 ENV REFRESHED_AT=2018-07-26 \
     OTP_VERSION=21.0
 
