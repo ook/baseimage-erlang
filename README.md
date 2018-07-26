@@ -35,6 +35,12 @@ CMD ["/sbin/my_init"]
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 ```
 
+You can run a shell into the image to see the possibilities via:
+
+```
+docker run --rm -t -i ook99/baseimage-erlang:21.0 /sbin/my_init -- bash -l
+```
+
 ## Licence
 
 MIT, because I'm too shy to make it WTFPL
